@@ -1,0 +1,87 @@
+:root{
+  --color-primary: #F55A5A;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter',
+  sans-serif;
+}
+
+.navbar-container{
+  background: var(--color-primary);
+  height: 55px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.navbar-container h1{
+  font-weight:  300;
+  font-size: 18px;
+}
+.navbar-container img{
+  height: 35px;
+  padding: 0 7px 0 0;
+}
+.cards-container{
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 35px auto 0 auto;
+  max-width:1024px;
+}
+.cards-container img{
+  width: 100%;
+}
+.card-header-text{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 20px;
+  Line-height: 12px;
+}
+.card-header-text .card-location-icon {
+   height: 12px;
+   width: 8px;
+   margin: 0 4px 4px 0;
+}
+.card-header-text h3{
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 20px;
+  letter-spacing: 3px
+}
+.card-header-text h4 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #918E9B;
+}
+.description-container > h1{
+  font-size: 25px;
+  margin: 5px 0 5px 0;
+  Line-height: 30px;
+}
+.description-container  .small{
+  font-size: 12px;
+  color: #2B283A;
+  font-weight: 800;
+  margin-bottom: 20px;
+  Line-height: 20px;
+}
+.description-container p{
+  margin: 10px 0 0 0;
+  Line-height: 22px;
+}
+.container-card-app {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* background: linear-gradient(208.83deg,
+  var(--black) 16.69%,
+  var(--bitcoin-orange) 100%); */
